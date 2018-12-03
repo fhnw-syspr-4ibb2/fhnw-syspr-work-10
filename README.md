@@ -13,7 +13,7 @@ Für Slides und Code Beispiele, siehe [Lektion 10](../../../fhnw-syspr/blob/mast
 ### b) UART, 45'
 * Diese Hands-on Übung basiert auf dem GPIO Pinout des Raspberry Pi, und kann in Gruppen gelöst werden.
 * Schreiben Sie ein Programm *my_gps.c* das über UART mit AT Commands ein GPS Modul anspricht und ausliest.
-* Als Hardware dient das ublox PAM 7Q GPS Modul.
+* Als Hardware dient das ublox PAM 7Q GPS Modul (die Anzahl ist auf 4 beschränkt, arbeiten Sie in Gruppen).
 
 ### Abgabe (optional)
 * Lokale Änderungen [committen und pushen](#git).
