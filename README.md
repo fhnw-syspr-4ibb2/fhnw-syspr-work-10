@@ -7,7 +7,7 @@ Für Slides und Code Beispiele, siehe [Lektion 10](../../../fhnw-syspr/blob/mast
 
 ### a) GPIO, 30'
 * Diese Hands-on Übung basiert auf dem [GPIO Pinout](https://pinout.xyz/pinout/wiringpi) des Raspberry Pi und kann gut zu zweit gelöst werden.
-* Schreiben Sie ein Programm *my_switch.c* das mittels GPIO den Zustand eines Buttons liest, und damit eine LED ein- bzw. ausschaltet (Sie bekommen ein Breadboard, ein Schalter, eine LED, Jumper Kabel und Widerstände im Unterricht).
+* Schreiben Sie ein Programm *my_switch.c* das mittels GPIO den Zustand eines Buttons liest, und damit eine LED ein- bzw. ausschaltet (Breadboard, Schalter, LED, Jumper Kabel und Widerstände werden im Unterricht verteilt).
 * Während dem Aufbau der Schaltung sollte das Gerät vom Strom getrennt sein, zum Schutz der Elektronik.
 
 ### b) UART, 45'
