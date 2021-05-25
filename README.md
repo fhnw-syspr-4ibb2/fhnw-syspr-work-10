@@ -14,18 +14,8 @@ Für Slides und Code Beispiele, siehe [Lektion 10](../../../fhnw-syspr/blob/mast
     $ ./pmsg_send /my_mq "my msg b" 1 # > 0 => Skip
     $ ./pmsg_receive /my_mq # Blockierend
     $ ./pmsg_unlink /my_mq</pre>
-
-### b) Notifications, 15'
-* Lesen Sie die folgenden [TLPI](http://man7.org/tlpi/) Beispiel Programme:<pre>
-[mq_notify_via_signal.c](http://man7.org/tlpi/code/online/book/pmsg/mq_notify_via_signal.c.html), [mq_notify_via_thread.c](http://man7.org/tlpi/code/online/book/pmsg/mq_notify_via_thread.c.html)</pre>
-* Testen sie Notifications mit den Kommandos:<pre>
-    $ ./pmsg_create -cx /my_mq
-    $ ./mq_notify_via_signal /my_mq # bzw. _thread
-    $ ./pmsg_send /my_mq "my msg a" 0 # Prio. 0
-    $ ./pmsg_send /my_mq "my msg b" 0
-    $ ./pmsg_unlink /my_mq</pre>
     
-### c) Semaphore, 15'
+### b) Semaphore, 15'
 * Lesen Sie die folgenden [TLPI](http://man7.org/tlpi/) Beispiel Programme:<pre>
 [psem_create.c](http://man7.org/tlpi/code/online/book/psem/psem_create.c.html), [psem_wait.c](http://man7.org/tlpi/code/online/book/psem/psem_wait.c.html), [psem_getvalue.c](http://man7.org/tlpi/code/online/book/psem/psem_getvalue.c.html), [psem_post.c](http://man7.org/tlpi/code/online/book/psem/psem_post.c.html) und [psem_unlink.c](http://man7.org/tlpi/code/online/book/psem/psem_unlink.c.html)</pre>
 * Testen Sie ein Semaphor mit den Kommandos:<pre>
@@ -35,7 +25,7 @@ Für Slides und Code Beispiele, siehe [Lektion 10](../../../fhnw-syspr/blob/mast
     $ ./psem_post /my_sem
     $ ./psem_unlink /my_sem</pre>
 
-### d) Shared Memory, 15'
+### c) Shared Memory, 15'
 * Lesen Sie die folgenden [TLPI](http://man7.org/tlpi/) Beispiel Programme:<pre>
 [pshm_create.c](http://man7.org/tlpi/code/online/book/pshm/pshm_create.c.html), [pshm_write.c](http://man7.org/tlpi/code/online/book/pshm/pshm_write.c.html), [pshm_read.c](http://man7.org/tlpi/code/online/book/pshm/pshm_read.c.html) und [pshm_unlink.c](http://man7.org/tlpi/code/online/book/pshm/pshm_unlink.c.html)</pre>
 * Testen Sie Shared Memory mit den Kommandos:<pre>
